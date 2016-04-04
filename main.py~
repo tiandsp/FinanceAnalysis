@@ -159,7 +159,7 @@ def getprofit(money,buy,sell):
 		profit.append(pf)
 	return profit
 
-#剔除原始數據中爲0的數據
+
 def norPrice(p):
 	re=[]
 	tmp=0;
