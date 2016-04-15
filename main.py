@@ -25,7 +25,6 @@ def getavgprice(price,n):
 		re.append(tmp)	
 	return re
 
-
 #使用優礦數據接口
 def getprice(url):
 	code, result = client.getData(url)
@@ -55,7 +54,6 @@ def getprice(url):
 		lowestPrice[i]=lowestPrice[i]*accumAdjFactor[i]
 		closePrice[i]=closePrice[i]*accumAdjFactor[i]
 	return preClosePrice,openPrice,highestPrice,lowestPrice,closePrice
-
 
 def getHLpriceN(Lprice,Hprice,n):
 	highP=[]
